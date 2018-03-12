@@ -1,8 +1,12 @@
-import { sayHello } from "./greet";
+import { sayHello } from "./ts/greet";
 
 function showHello(divId: string, name: string) {
     const e = document.getElementById(divId);
-    e.innerText = "test HAHHAHAHA .. " + sayHello(name);
+    e.innerText = "elem inner text .. " + sayHello(name);
+
+    const but = document.createElement("button");
+    but.innerText = "Maksim4ik";
+    e.appendChild(but);
 }
 
-showHello("greeting","TypeScript");
+showHello("root", "NAME");

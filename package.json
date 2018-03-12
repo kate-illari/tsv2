@@ -17,9 +17,9 @@
     "gulp-typescript": "^4.0.1",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.0",
+    "pixi-spine": "^1.5.11",
     "tsify": "^3.0.4",
     "typescript": "^2.7.2",
-    "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "vinyl-source-stream": "^2.0.0"
   }
 }
